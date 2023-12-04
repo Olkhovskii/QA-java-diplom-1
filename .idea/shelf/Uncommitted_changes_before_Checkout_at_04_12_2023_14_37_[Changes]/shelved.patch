@@ -1,0 +1,14 @@
+Index: src/test/java/ingredient_type/IngredientTypeTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package ingredient_type;\r\n\r\nimport org.junit.Test;\r\nimport praktikum.IngredientType;\r\n\r\nimport static org.junit.Assert.assertNotNull;\r\n\r\npublic class IngredientTypeTest {\r\n    @Test\r\n    public void fillingExistTest() {\r\n        assertNotNull(\"Fail\", IngredientType.FILLING);\r\n    }\r\n    @Test\r\n    public void sauceExistTest(){\r\n        assertNotNull(\"Fail\", IngredientType.SAUCE);\r\n    }\r\n}\r\n
+===================================================================
+diff --git a/src/test/java/ingredient_type/IngredientTypeTest.java b/src/test/java/ingredient_type/IngredientTypeTest.java
+--- a/src/test/java/ingredient_type/IngredientTypeTest.java	
++++ b/src/test/java/ingredient_type/IngredientTypeTest.java	
+@@ -1,4 +1,4 @@
+-package ingredient_type;
++package ingredient.type;
+ 
+ import org.junit.Test;
+ import praktikum.IngredientType;
